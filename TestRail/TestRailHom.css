@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: auto;
+    margin-inline: 6%;
+    background-color: #223446E6;
+    padding: 2rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+nav div ul li {
+    display: inline-block;
+    padding-right: 2rem;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+nav div ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav div ul li button {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #ffb05a;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+
+}
+
+.main-div-block {
+    overflow-y: hidden;
+    background-color: #233C51;
+    height: 60vh;
+}
+
+.main-body-div {
+    overflow-y: hidden;
+    background-color: #F5F1E3;
+
+}
+
+footer {
+    overflow-y: hidden;
+    background-color: #233C51;
+    height: 55vh;
+    padding: 5%;
+
+
+}
+
+.footer-main-div {
+    color: #fff;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    line-height: 2rem;
+}
+
+.footer-main-div ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-ul li {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.first-ul li {
+    height: 12.5rem;
+}
+
+#sign-me {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #ffb05a;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: 2px solid #ffb05a;
+}
+
+#sign-me:hover,
+.right-content-2 button:hover {
+    background-color: #233C51;
+    color: #ffb05a;
+}
+
+.fiveth-ul ul li a img {
+    position: relative;
+    width: 1.5rem;
+    backdrop-filter: #ffb05a;
+}
+
+.fiveth-ul ul li {
+
+    padding: .5rem;
+    display: inline-block;
+
+}
+
+.fiveth-ul ul {
+    padding-top: 2rem;
+    margin-inline: 1.25rem;
+    align-content: center;
+}
+
+.header-content {
+    position: sticky;
+    padding: 5rem;
+    width: 100%;
+    display: flex;
+}
+
+.header-content div img {
+    position: relative;
+    top: -18%;
+    left: -30%;
+    height: 18rem;
+    /* padding: .25rem; */
+}
+
+.header-content div h2,
+.header-content div p {
+    color: #fff
+}
+
+.header-content div h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+}
+
+#other-blog {
+    text-align: center;
+}
+
+.content-block {
+    overflow-x: hidden;
+    border-radius: 1rem;
+    margin: 1rem;
+    border: 1px solid #233C51;
+    width: 25rem;
+    margin-inline: 2rem;
+
+}
+
+.content-block img {
+    border-radius: 1rem 1rem 0 0;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #233C51;
+    width: 25rem;
+
+}
+
+#content-block-id {
+    display: flex;
+    margin-inline: 6%;
+
+}
+
+.content-block p {
+    padding: 1rem;
+}
+
+.content-block p:nth-child(2) {
+    font-weight: 500;
+    color: #65c179;
+}
+
+.content-block p:not(:nth-child(2)),
+.content-block p a:not(:nth-child(2)) {
+    color: #233c51bf;
+}
+
+.content-block p a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.sub-content-div-1 {
+    position: sticky;
+    top: 0;
+    margin-top: 5rem;
+    margin-inline: 5%;
+    width: 50%;
+}
+
+.sub-content-div-1 p {
+    padding-bottom: 1rem;
+}
+
+.sub-content-div-1 h1 {
+    padding-bottom: 2rem;
+}
+.sub-content{
+    
+}
+.sub-sub {
+    display: flex;
+}
+
+.right-side-con {
+    margin-bottom: 2rem;
+    border-radius: .75rem;
+    width: 18rem;
+    height: auto;
+    background-color: rgba(229, 172, 172, 0.3);
+
+}
+
+/* .right-content-1 ol {
+    list-style-type: circle;
+} */
+.right-content-1 a {
+    text-decoration: none;
+    color: #233C51;
+    font-weight: 300;
+}
+
+.right-content-1 {
+
+    line-height: 2rem;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.right-content-2,
+.right-content-3 {
+    padding: 2rem;
+    text-align: center;
+}
+
+.right-content-2 button {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #ffb05a;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 3rem;
+    border: 2px solid #ffb05a;
+}
+
+.right-content-3 {}
+
+#social-med-right img {
+    background-color: #F5F1E3;
+    border-radius: 1rem;
+    margin: .5rem;
+    padding: .75rem;
+    width: 1.5rem;
+    display: inline-block;
+}
